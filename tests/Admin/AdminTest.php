@@ -12,7 +12,7 @@
  */
 declare(strict_types=1);
 
-namespace Modules\tests\Job\Admin;
+namespace Modules\Job\tests\Admin;
 
 /**
  * @internal
