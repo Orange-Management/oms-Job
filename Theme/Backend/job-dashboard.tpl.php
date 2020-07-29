@@ -21,16 +21,15 @@ echo $this->getData('nav')->render(); ?>
 
 <div class="row">
     <div class="col-xs-12">
-        <div class="box wf-100">
+        <div class="portlet">
+            <div class="portlet-head"><?= $this->getHtml('Job') ?><i class="fa fa-download floatRight download btn"></i></div>
             <table class="default">
-                <caption><?= $this->getHtml('Job') ?><i class="fa fa-download floatRight download btn"></i></caption>
                 <thead>
-                <td><?= $this->getHtml('Status') ?>
-                <td><?= $this->getHtml('Last') ?>
-                <td><?= $this->getHtml('Next') ?>
-                <td class="full"><?= $this->getHtml('Title') ?>
-                <td><?= $this->getHtml('Run') ?>
-                <tfoot>
+                    <td><?= $this->getHtml('Status') ?>
+                    <td><?= $this->getHtml('Last') ?>
+                    <td><?= $this->getHtml('Next') ?>
+                    <td class="full"><?= $this->getHtml('Title') ?>
+                    <td><?= $this->getHtml('Run') ?>
                 <tbody>
                 <?php $c = 0; foreach ($jobs as $key => $job) : ++$c;
                 $url = \phpOMS\Uri\UriFactory::build('{/prefix}admin/job/single?{?}&id=' . $job->getId()); ?>
