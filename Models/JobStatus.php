@@ -27,7 +27,10 @@ use phpOMS\Stdlib\Base\Enum;
 abstract class JobStatus extends Enum
 {
     public const RUNNING   = 1;
+
     public const WAITING   = 2;
+
     public const SUSPENDED = 3;
+
     public const DONE      = 4;
 }

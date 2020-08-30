@@ -20,6 +20,7 @@ namespace Modules\Job\tests\Admin;
 class AdminTest extends \PHPUnit\Framework\TestCase
 {
     protected const MODULE_NAME = 'Job';
+
     protected const URI_LOAD = '';
 
     use \Modules\tests\ModuleTestTrait;

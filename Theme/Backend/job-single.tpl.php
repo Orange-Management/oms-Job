@@ -26,23 +26,23 @@ echo $this->getData('nav')->render(); ?>
             <div class="inner">
             <table class="list w-100">
                     <tr>
-                        <td><?= $this->getHtml('Status') ?>
+                        <td><?= $this->getHtml('Status'); ?>
                         <td><i class="fa fa-anchor"></i>
                         <td class="wf-100"><?= $this->printHtml($job->getStatus()); ?>
                     <tr>
-                        <td><?= $this->getHtml('Run') ?>
+                        <td><?= $this->getHtml('Run'); ?>
                         <td><i class="fa fa-anchor"></i>
                         <td><?= $this->printHtml($job->getRun()); ?>
                     <tr>
-                        <td><?= $this->getHtml('LastRunTime') ?>
+                        <td><?= $this->getHtml('LastRunTime'); ?>
                         <td><i class="fa fa-anchor"></i>
                         <td><?= $this->printHtml($job->getLastRunTime() !== null ? $job->getLastRunTime()->format('Y-m-d') : ''); ?>
                     <tr>
-                        <td><?= $this->getHtml('NextRunTime') ?>
+                        <td><?= $this->getHtml('NextRunTime'); ?>
                         <td><i class="fa fa-anchor"></i>
                         <td><?= $this->printHtml($job->getNextRunTime() !== null ? $job->getNextRunTime()->format('Y-m-d') : ''); ?>
                     <tr>
-                        <td><?= $this->getHtml('Description') ?>
+                        <td><?= $this->getHtml('Description'); ?>
                         <td><i class="fa fa-anchor"></i>
                         <td><blockquote><?= $this->printHtml($job->getComment()); ?></blockquote>
             </table>
