@@ -8,12 +8,12 @@ use phpOMS\Router\RouteVerb;
 return [
     '^.*/admin/job.*$' => [
         [
-            'dest' => '\Modules\Job\Controller\ApiController:apiJobCreate',
-            'verb' => RouteVerb::SET,
+            'dest'       => '\Modules\Job\Controller\ApiController:apiJobCreate',
+            'verb'       => RouteVerb::SET,
             'permission' => [
                 'module' => ApiController::MODULE_NAME,
-                'type'  => PermissionType::CREATE,
-                'state' => PermissionState::JOB,
+                'type'   => PermissionType::CREATE,
+                'state'  => PermissionState::JOB,
             ],
         ],
     ],
