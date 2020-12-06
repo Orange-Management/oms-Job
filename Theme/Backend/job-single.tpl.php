@@ -22,7 +22,7 @@ echo $this->getData('nav')->render(); ?>
 <div class="row">
     <div class="col-xs-12">
         <section class="box wf-100">
-            <header><h1><?= $this->printHtml($job->getId()); ?></h1></header>
+            <header><h1><?= $job->getId(); ?></h1></header>
             <div class="inner">
             <table class="list w-100">
                     <tr>
