@@ -22,7 +22,7 @@ use phpOMS\Utils\TaskSchedule\SchedulerFactory;
 use phpOMS\Views\View;
 
 /**
- * Task class.
+ * Job backend controller class.
  *
  * @package Modules\Job
  * @license OMS License 1.0

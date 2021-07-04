@@ -15,7 +15,7 @@ declare(strict_types=1);
 namespace Modules\Job\Models;
 
 /**
- * Task class.
+ * Job class.
  *
  * @package Modules\Job\Models
  * @license OMS License 1.0

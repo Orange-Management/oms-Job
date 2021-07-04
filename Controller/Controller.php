@@ -17,7 +17,7 @@ namespace Modules\Job\Controller;
 use phpOMS\Module\ModuleAbstract;
 
 /**
- * Task class.
+ * Job controller class.
  *
  * @package Modules\Job
  * @license OMS License 1.0

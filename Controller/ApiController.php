@@ -18,7 +18,7 @@ use phpOMS\Message\RequestAbstract;
 use phpOMS\Message\ResponseAbstract;
 
 /**
- * Task class.
+ * Job api controller class.
  *
  * @package Modules\Job
  * @license OMS License 1.0
